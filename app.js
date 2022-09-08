@@ -1,3 +1,17 @@
+const reducer = (state = initialState, action) => {
+  switch (action.type) {
+    case 'songs/addSong' : {
+      return [...state, action.payload];
+    }
+    case 'songs/removeSong': {
+      return state.filter( el => el !== action.payload);
+    }
+    default: {
+      return state;
+    }
+  }
+}
+
 const initialState = [ 'Take Five', 'Claire de Lune', 'Respect' ];
 
 const addNewSong = {
