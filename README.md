@@ -1,5 +1,5 @@
 # Redux Playground
-The follwing repo is a copy of the course [Learn Redux](https://eloquentjavascript.net/) by Codeacademy. I mainly use it as a way to get an extra rep in through a local enviorment.
+The follwing repo is a copy of the course [Learn Redux](https://www.codecademy.com/learn/learn-redux) by Codeacademy. I mainly use it as a way to get an extra rep in through a local enviorment.
 
 # Technologies Used
 ![Codecademy](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=1F243A)

@@ -44,3 +44,11 @@ const removeItemAtIndex = (list, index) => {
 };
 
 console.log(removeItemAtIndex(['a', 'b', 'c', 'd'], 1));
+
+// Data Flow in Redux
+
+// 1. The store initializes the state with a default value.
+// 2. The view displays that state.
+// 3. When a user interacts with the view, like clicking a button, an action is dispatched to the store.
+// 4. The dispatched action and the current state are combined in the store’s reducer to determine the next state.
+// 5. The view is updated to display the new state.
